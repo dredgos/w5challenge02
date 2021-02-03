@@ -1,3 +1,4 @@
+// Test
 /*!
   * Bootstrap v4.3.1 (https://getbootstrap.com/)
   * Copyright 2011-2019 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
@@ -20,7 +21,7 @@
       if ("value" in descriptor) descriptor.writable = true;
       Object.defineProperty(target, descriptor.key, descriptor);
     }
-  }
+  } 
 
   function _createClass(Constructor, protoProps, staticProps) {
     if (protoProps) _defineProperties(Constructor.prototype, protoProps);
@@ -79,6 +80,7 @@
    * Private TransitionEnd Helpers
    * ------------------------------------------------------------------------
    */
+  
 
   var TRANSITION_END = 'transitionend';
   var MAX_UID = 1000000;
